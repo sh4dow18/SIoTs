@@ -70,6 +70,8 @@ If you want to know more about this topic, you can visit
 
 # Using SIoTs
 
+![LOGO](files/readme/04_logo.png)
+
 First, you have to download the repository. To download it, you can download the
 compressed file (.zip) or clone the repository, with the "git" program installed,
 through the CMD in "Windows" or with a terminal in Linux. This is done in the form
@@ -80,8 +82,6 @@ git clone https://github.com/sh4dow18/SIoTs.git
 ```
 
 In Linux in some cases the command "sudo" is needed before the previous command
-
-![LOGO](files/readme/04_logo.png)
 
 To use the "Shadow's IoT Simulator.pkt" program you have to double click on it, with
 Cisco Packet Tracer installed.
