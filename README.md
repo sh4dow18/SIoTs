@@ -124,3 +124,12 @@ Finally, you can see that by the message all the components connected to the mot
 turn on or open depending on the component. This happens because of that specific message.
 
 ![ALLON](files/readme/09_all_on.png)
+
+Now to use the automatic way on the same motherboard, you have to activate the car smoke,
+this is done by pressing the "ALT" key at the same time as the left click on the car. You
+must do it in the 3 cars. When a high amount of smoke is generated, the smoke detector will
+alert the motherboard and the motherboard will tell the fan and siren to turn on. In a real
+case, the fan would try to disperse the smoke by sending it out of the room and the siren
+would alert about the smoke.
+
+![AUTOMATICWAY1](files/readme/10_automatic_way_1.png)
