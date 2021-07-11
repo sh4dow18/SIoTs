@@ -254,4 +254,6 @@ time to communicate.
 
 The altered code is found as "Python" code (.py) in the "code" folder within the "files" folder.
 
+ONLY THE CHANGES are made by me, the rest of the code is part of the templates that Packet Tracer has
+
 Here ends the documentation for now. Eat vegetables and have a Nice Day :D
