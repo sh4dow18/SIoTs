@@ -87,7 +87,7 @@ git clone https://github.com/sh4dow18/SIoTs.git
 
 In Linux in some cases the command "sudo" is needed before the previous command.
 
-To use the "Shadow's IoT Simulator.pkt" program you have to double click on it, with
+To use the "Sh4dow's IoT Simulator.pkt" program you have to double click on it, with
 Cisco Packet Tracer installed.
 
 This program will display the following:
