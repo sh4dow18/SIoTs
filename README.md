@@ -12,6 +12,10 @@ Things works.
 I will assume you have basic networking skills and will not explain things like
 "IP", netmask or "DHCP".
 
+# Version
+
+Version: **1.0**
+
 # What is Cisco Packet Tracer?
 
 Packet Tracer is a powerful network simulation tool designed by Cisco. This helps
@@ -81,7 +85,7 @@ through the CMD in "Windows" or with a terminal in Linux. This is done in the fo
 git clone https://github.com/sh4dow18/SIoTs.git
 ```
 
-In Linux in some cases the command "sudo" is needed before the previous command
+In Linux in some cases the command "sudo" is needed before the previous command.
 
 To use the "Shadow's IoT Simulator.pkt" program you have to double click on it, with
 Cisco Packet Tracer installed.
@@ -90,8 +94,8 @@ This program will display the following:
 
 ![SIOTS](files/readme/05_siots.png)
 
-Later, you must wait 1 minute and a half so that all the components are connected
-correctly and that the internal programs work in the best way.
+Later, you must wait 2 minutes so that all the components are connected correctly and
+that the internal programs work in the best way.
 
 Now, there are 3 ways to test how the IoT works in this version:
 
@@ -114,7 +118,7 @@ that are installed. You have to access to the "MQTT Client" app.
 ![ADMINDESKTOP](files/readme/07_admin_desktop.png)
 
 Afterwards, the smartphone automatically connects to the server hosted on another network
-as the administrator user (Red Square). Then you go to the "Publish" section to enter your
+as the administrator user (Red Square). Then, you go to the "Publish" section to enter your
 message. The message is divided into 2 parts: The topic and the sub-message (payload). The
 topic goes in the first box with a "/" in front of it always and the payload in the second
 box (Green Square). Then, you have to press the "Publish" button to send the message to
@@ -170,7 +174,7 @@ If you turn off the cars, the fan will stop and the alarm will stop sounding.
 ## Automatic Way on Different Motherboards
 
 Finally, in this way, you will use the motion detector and the camera of the SBC 2, in
-addition to that you will also use the door of the SBC 3.
+addition to that, you will also use the door of the SBC 3.
 
 In Packet Tracer, the mouse is used to detect motion. For this, press "ALT" above the motion
 detector and then move the mouse. Automatically, the sensor will turn on indicating movement.
@@ -244,16 +248,24 @@ on all devices, the communication has to be done in another way outside of those
 ## Did you have to change code to create the simulator?
 
 Yes, code had to be changed both on the server, to create users who can access the server, and
-on the boards to automatically connect to the server. This is the reason why you should wait 1
-minute and a half when opening the simulator, because as this works with packages, they can take
-time to communicate.
+on the boards to automatically connect to the server. This is the reason why you should wait 2
+minutes when opening the simulator, because as this works with packages, they can take time to
+communicate.
 
 ![CODE](files/readme/18_code.png)
 
 ## What code should be changed?
 
-The altered code is found as "Python" code (.py) in the "code" folder within the "files" folder.
+The altered code is found as "Python" code (.py) in the "code" folder within the "files" folder. 
 
-ONLY THE CHANGES are made by me, the rest of the code is part of the templates that Packet Tracer has
+![FOLDER](files/readme/19_folder.png)
+
+The "LED", air conditioner and the old cars was not altered in their code.
+
+![WARNING](files/readme/20_warning.jpg)
+
+**ONLY THE CHANGES** are made by me, the rest of the code is part of the templates that Packet Tracer has.
+
+![ALTERED](files/readme/21_altered.png)
 
 Here ends the documentation for now. Eat vegetables and have a Nice Day :D
